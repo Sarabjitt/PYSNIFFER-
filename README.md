@@ -2,8 +2,6 @@
 
 A simple network packet sniffer written in pure Python (standard library only, no dependencies).
 
-![tests](https://github.com/YOUR-USERNAME/pysniffer/actions/workflows/ci.yml/badge.svg)
-
 It captures raw frames, decodes them layer by layer, filters them with a tcpdump-style expression language,
 and saves/loads Wireshark-compatible `.pcap` files.
 
