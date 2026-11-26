@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+*.pcap
+*.pcapng
+.venv/
+venv/
+build/
+dist/
+*.egg-info/
+.idea/
+.vscode/

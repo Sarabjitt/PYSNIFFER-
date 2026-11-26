@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pysniffer"
+version = "1.0.0"
+description = "Simple dependency-free network packet sniffer"
+requires-python = ">=3.9"
+readme = "README.md"
+license = { text = "MIT" }
+
+[project.scripts]
+pysniffer = "pysniffer.cli:main"
+
+[tool.setuptools]
+packages = ["pysniffer"]
